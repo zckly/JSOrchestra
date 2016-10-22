@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "description": "l2code",
   "author": "Josh and Zack",
-  "icons": { "16": "JSOIcon.png",
-           "48": "JSOIcon.png",
-          "128": "JSOIcon.png" },
+  "icons": { "16": "src/img/JSOIcon.png",
+           "48": "src/img/JSOIcon.png",
+          "128": "src/img/JSOIcon.png" },
   "content_scripts": [
       {
         "matches": ["https://jsfiddle.net/"],
