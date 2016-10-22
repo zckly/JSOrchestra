@@ -10,7 +10,7 @@
   "content_scripts": [
       {
         "matches": ["https://jsfiddle.net/"],
-        "js": ["public/js/jquery.js", "public/js/react.js",  "public/js/react-dom.js", "dist/jsOrch.js"],
+        "js": ["public/js/jquery.js", "public/js/react.js",  "public/js/react-dom.js", "public/js/react-router.js", "dist/jsOrch.js"],
         "css": ["public/css/style.css"]
       }
     ],
