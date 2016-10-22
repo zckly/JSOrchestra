@@ -3,15 +3,45 @@
 
 //creates a blank div, appends it to the body of JSFiddle.net
 $("<div id='jsOrchestra' style='z-index: 999'></div>").appendTo("body")
-
+var robotoTag = $('<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">')
+document.head.append(robotoTag)
 class App extends React.Component {
   render() {
     return (
-      
-      <div id='splashScreen'></div>
+      <div>
+        {this.props.children}
+      </div>
       )
   }
   
 }
 
-ReactDOM.render(<App />, document.getElementById('jsOrchestra'))
+class Splash extends React.Component {
+  render() {
+    return (
+      
+      <div id='splashScreen'>
+        
+        <button id='splashBtn'>
+          <Link to="/lessons">
+            START
+          </Link>
+        </button>
+        
+      </div>
+      )
+  }
+}
+
+class LessonList extends React.Component {
+  render() {
+    <div>lesson list</div>
+  }
+}
+
+ReactDOM.render(<Router>
+                  <Route component={App}>
+                    <Route path='/' component={Splash} />
+                    <Route path='/lessons' component={LessonList} />
+                  </Route>
+                <Router />, document.getElementById('jsOrchestra'))
