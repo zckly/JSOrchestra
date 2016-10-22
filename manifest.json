@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "JSOrchestra",
+  "version": "0.1.0",
+  "default_locale": "en",
+  "description": "l2code",
+  "author": "Josh and Zack",
+  "content_scripts": [
+      {
+        "matches": ["https://jsfiddle.net/"],
+        "js": ["jquery.js", "jsOrch.js"]
+      }
+    ],
+}
+
