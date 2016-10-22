@@ -13,6 +13,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 //creates a blank div, appends it to the body of JSFiddle.net
 $("<div id='jsOrchestra' style='z-index: 999'></div>").appendTo("body");
+var robotoTag = $('<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">');
+document.head.append(robotoTag);
 
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
@@ -26,11 +28,78 @@ var App = function (_React$Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return React.createElement("div", { id: "splashScreen" });
+      return React.createElement(
+        "div",
+        null,
+        this.props.children
+      );
     }
   }]);
 
   return App;
 }(React.Component);
 
-ReactDOM.render(React.createElement(App, null), document.getElementById('jsOrchestra'));
+var Splash = function (_React$Component2) {
+  _inherits(Splash, _React$Component2);
+
+  function Splash() {
+    _classCallCheck(this, Splash);
+
+    return _possibleConstructorReturn(this, (Splash.__proto__ || Object.getPrototypeOf(Splash)).apply(this, arguments));
+  }
+
+  _createClass(Splash, [{
+    key: "render",
+    value: function render() {
+      return React.createElement(
+        "div",
+        { id: "splashScreen" },
+        React.createElement(
+          "button",
+          { id: "splashBtn" },
+          React.createElement(
+            Link,
+            { to: "/lessons" },
+            "START"
+          )
+        )
+      );
+    }
+  }]);
+
+  return Splash;
+}(React.Component);
+
+var LessonList = function (_React$Component3) {
+  _inherits(LessonList, _React$Component3);
+
+  function LessonList() {
+    _classCallCheck(this, LessonList);
+
+    return _possibleConstructorReturn(this, (LessonList.__proto__ || Object.getPrototypeOf(LessonList)).apply(this, arguments));
+  }
+
+  _createClass(LessonList, [{
+    key: "render",
+    value: function render() {
+      React.createElement(
+        "div",
+        null,
+        "lesson list"
+      );
+    }
+  }]);
+
+  return LessonList;
+}(React.Component);
+
+ReactDOM.render(React.createElement(
+  Router,
+  null,
+  React.createElement(
+    Route,
+    { component: App },
+    React.createElement(Route, { path: "/", component: Splash }),
+    React.createElement(Route, { path: "/lessons", component: LessonList })
+  )
+), document.getElementById('jsOrchestra'));

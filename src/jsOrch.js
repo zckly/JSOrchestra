@@ -39,9 +39,9 @@ class LessonList extends React.Component {
   }
 }
 
-ReactDOM.render(<Router>
-                  <Route component={App}>
-                    <Route path='/' component={Splash} />
-                    <Route path='/lessons' component={LessonList} />
-                  </Route>
-                <Router />, document.getElementById('jsOrchestra'))
+ReactDOM.render( <Router>
+                    <Route component={App}>
+                      <Route path='/' component={Splash}/>
+                      <Route path='/lessons' component={LessonList}/>
+                    </Route>
+                </Router>, document.getElementById('jsOrchestra'))
