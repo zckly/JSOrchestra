@@ -1,5 +1,12 @@
-#splashScreen {
+#jsOrchestra {
+  position: absolute;
+  top: 0vh;
+  right: 0vw;
   
-  background: url(public/css/JSOSplash.png);
+}
+
+#splashScreen {
+  /*Change directory path later  */
+  background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/css/JSOSplash.png');
   
 }
