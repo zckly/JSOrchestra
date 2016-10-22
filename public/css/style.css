@@ -7,6 +7,10 @@
 
 #splashScreen {
   /*Change directory path later  */
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
   background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/css/JSOSplash.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
