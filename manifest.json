@@ -13,6 +13,9 @@
         "js": ["public/js/jquery.js", "public/js/react.js",  "public/js/react-dom.js", "dist/jsOrch.js"],
         "css": ["public/css/style.css"]
       }
+    ],
+  "web_accessible_resources": [
+       "public/css/JSOSplash.png"
     ]
 }
 
