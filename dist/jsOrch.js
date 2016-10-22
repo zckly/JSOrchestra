@@ -26,11 +26,7 @@ var App = function (_React$Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return React.createElement(
-        "div",
-        { id: "splashScreen" },
-        "Hello world"
-      );
+      return React.createElement("div", { id: "splashScreen" });
     }
   }]);
 

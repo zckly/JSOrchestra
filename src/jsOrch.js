@@ -8,11 +8,7 @@ class App extends React.Component {
   render() {
     return (
       
-      <div id='splashScreen'>
-      
-        Hello world
-      
-      </div>
+      <div id='splashScreen'></div>
       )
   }
   
