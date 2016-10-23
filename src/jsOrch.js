@@ -3,7 +3,7 @@
 //make sure jquery works
 
 //creates a blank div, appends it to the body of JSFiddle.net
-$("<div id='jsOrchestra' style='z-index: 999'></div>").appendTo("body")
+$("<div id='jsOrchestra'></div>").appendTo("body")
 var robotoTag = $('<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">')
 var quicksandTag = $('<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">')
 $('head').append(robotoTag)
@@ -44,7 +44,21 @@ class Splash extends React.Component {
 class LessonList extends React.Component {
   render() {
     return (
-      <div id="lessonList"></div>
+      <div id="lessonList">
+        
+        {/* Give 50% or 50vw LEFT */}
+        <div id="lessonMenu">
+        
+          
+          
+        
+        </div>
+        
+        {/* Give 50% or 50vw RIGHT */}
+        <div id="lessonDesc">
+        </div>
+      
+      </div>
 
       )
   }
