@@ -5,7 +5,10 @@
 //creates a blank div, appends it to the body of JSFiddle.net
 $("<div id='jsOrchestra' style='z-index: 999'></div>").appendTo("body")
 var robotoTag = $('<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">')
+var quicksandTag = $('<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">')
 $('head').append(robotoTag)
+$('head').append(quicksandTag)
+
 
 var Router = ReactRouter.BrowserRouter
 var Match = ReactRouter.Match
@@ -40,7 +43,10 @@ class Splash extends React.Component {
 
 class LessonList extends React.Component {
   render() {
-    <div>lesson list</div>
+    return (
+      <div>lesson list</div>
+
+      )
   }
 }
 

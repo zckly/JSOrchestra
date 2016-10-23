@@ -14,7 +14,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 //creates a blank div, appends it to the body of JSFiddle.net
 $("<div id='jsOrchestra' style='z-index: 999'></div>").appendTo("body");
 var robotoTag = $('<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">');
+var quicksandTag = $('<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">');
 $('head').append(robotoTag);
+$('head').append(quicksandTag);
 
 var Router = ReactRouter.BrowserRouter;
 var Match = ReactRouter.Match;
@@ -86,7 +88,7 @@ var LessonList = function (_React$Component3) {
   _createClass(LessonList, [{
     key: "render",
     value: function render() {
-      React.createElement(
+      return React.createElement(
         "div",
         null,
         "lesson list"
