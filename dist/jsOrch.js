@@ -95,6 +95,15 @@ var LessonList = function (_React$Component3) {
   }
 
   _createClass(LessonList, [{
+    key: "onItemClick",
+    value: function onItemClick(event) {
+      event.preventDefault();
+      this.setState({ selectedItem: event.currentTarget.dataset.id });
+
+      var el = event.target;
+      console.log(el);
+    }
+  }, {
     key: "render",
     value: function render() {
       return React.createElement(
@@ -105,42 +114,42 @@ var LessonList = function (_React$Component3) {
           { id: "twoRows" },
           React.createElement(
             "div",
-            { id: "panel1", className: "panel" },
+            { onClick: this.onItemClick.bind(this), id: "panel1", className: "panel" },
             "1"
           ),
           React.createElement(
             "div",
-            { id: "panel2", className: "panel" },
+            { onClick: this.onItemClick.bind(this), id: "panel2", className: "panel" },
             "2"
           ),
           React.createElement(
             "div",
-            { id: "panel3", className: "panel" },
+            { onClick: this.onItemClick.bind(this), id: "panel3", className: "panel" },
             "3"
           ),
           React.createElement(
             "div",
-            { id: "panel4", className: "panel" },
+            { onClick: this.onItemClick.bind(this), id: "panel4", className: "panel" },
             "4"
           ),
           React.createElement(
             "div",
-            { id: "panel5", className: "panel" },
+            { onClick: this.onItemClick.bind(this), id: "panel5", className: "panel" },
             "5"
           ),
           React.createElement(
             "div",
-            { id: "panel6", className: "panel" },
+            { onClick: this.onItemClick.bind(this), id: "panel6", className: "panel" },
             "6"
           ),
           React.createElement(
             "div",
-            { id: "panel7", className: "panel" },
+            { onClick: this.onItemClick.bind(this), id: "panel7", className: "panel" },
             "7"
           ),
           React.createElement(
             "div",
-            { id: "panel8", className: "panel" },
+            { onClick: this.onItemClick.bind(this), id: "panel8", className: "panel" },
             "8"
           )
         ),

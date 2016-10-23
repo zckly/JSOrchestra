@@ -46,20 +46,27 @@ class Splash extends React.Component {
 }
 
 class LessonList extends React.Component {
+  onItemClick(event) {
+    event.preventDefault();
+    this.setState({ selectedItem: event.currentTarget.dataset.id });
+
+    var el = event.target
+    console.log(el)
+  }
   render() {
     return (
       <div id="lessonList">
         
         {/* Give 50% or 50vw LEFT */}
         <div id="twoRows">
-          <div id='panel1' className="panel">1</div>
-          <div id='panel2' className="panel">2</div>
-          <div id='panel3' className="panel">3</div>
-          <div id='panel4' className="panel">4</div>
-          <div id='panel5' className="panel">5</div>
-          <div id='panel6' className="panel">6</div>
-          <div id='panel7' className="panel">7</div>
-          <div id='panel8' className="panel">8</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel1' className="panel">1</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel2' className="panel">2</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel3' className="panel">3</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel4' className="panel">4</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel5' className="panel">5</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel6' className="panel">6</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel7' className="panel">7</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel8' className="panel">8</div>
         </div>
         
         {/* Give 50% or 50vw RIGHT */}
