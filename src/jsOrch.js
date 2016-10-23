@@ -1,10 +1,13 @@
+/*global React*/
+/*global $*/
+
 //initialize react
 //make sure jquery works
 
 //creates a blank div, appends it to the body of JSFiddle.net
 $("<div id='jsOrchestra' style='z-index: 999'></div>").appendTo("body")
 var robotoTag = $('<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">')
-document.head.append(robotoTag)
+$('head').append(robotoTag)
 class App extends React.Component {
   render() {
     return (

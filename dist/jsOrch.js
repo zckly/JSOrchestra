@@ -8,13 +8,16 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+/*global React*/
+/*global $*/
+
 //initialize react
 //make sure jquery works
 
 //creates a blank div, appends it to the body of JSFiddle.net
 $("<div id='jsOrchestra' style='z-index: 999'></div>").appendTo("body");
 var robotoTag = $('<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">');
-document.head.append(robotoTag);
+$('head').append(robotoTag);
 
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
