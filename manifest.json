@@ -9,7 +9,7 @@
           "128": "public/img/JSOIcon.png" },
   "content_scripts": [
       {
-        "matches": ["https://jsfiddle.net/*"],
+        "matches": ["https://jsfiddle.net/codefuture/oo2sv7sL/"],
         "js": ["public/js/jquery.js", "public/js/react.js",  "public/js/react-dom.js", "public/js/react-router.js", "dist/jsOrch.js"],
         "css": ["public/css/style.css"]
       }

@@ -4,7 +4,7 @@
   "description": "hacktx 2016",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "babel --presets es2015,react --watch src/ --out-dir dist"
   },
   "repository": {
     "type": "git",
