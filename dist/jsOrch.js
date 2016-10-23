@@ -145,11 +145,6 @@ var LessonList = function (_React$Component3) {
         { id: "lessonList" },
         React.createElement(
           "div",
-          { id: "lessonDesc" },
-          React.createElement("div", { id: "currentState" })
-        ),
-        React.createElement(
-          "div",
           { id: "twoRows" },
           React.createElement(
             "div",
@@ -191,6 +186,11 @@ var LessonList = function (_React$Component3) {
             { onClick: this.onItemClick.bind(this), id: "panel8", className: "panel" },
             "8"
           )
+        ),
+        React.createElement(
+          "div",
+          { id: "lessonDesc" },
+          React.createElement("div", { id: "currentState" })
         )
       );
     }
