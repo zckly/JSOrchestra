@@ -51,6 +51,7 @@ class LessonList extends React.Component {
     this.setState({ selectedItem: event.currentTarget.dataset.id });
 
     var elementId = event.target.id;
+    console.log(elementId);
     switch(elementId) {
       case '#panel1': 
        console.log('this');
