@@ -145,7 +145,7 @@ var LessonList = function (_React$Component3) {
         { id: "lessonList" },
         React.createElement(
           "div",
-          { id: "twoRows" },
+          { id: "twoRows", style: "float: left;" },
           React.createElement(
             "div",
             { onClick: this.onItemClick.bind(this), id: "panel1", className: "panel" },
@@ -189,7 +189,7 @@ var LessonList = function (_React$Component3) {
         ),
         React.createElement(
           "div",
-          { id: "lessonDesc" },
+          { id: "lessonDesc", style: "float: right;" },
           React.createElement("div", { id: "currentState" })
         )
       );
