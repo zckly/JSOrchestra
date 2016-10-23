@@ -16,7 +16,6 @@
 }
 
 #lessonList {
-  display: inline-block;
   position: absolute;
   top: 0vh;
   right: 0vw;
@@ -123,6 +122,7 @@
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
   background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/img/Lesson1.png') no-repeat center center fixed;
+   background-size: contain;
 }
 
 .panel2Class {
@@ -132,6 +132,7 @@
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
   background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/img/Lesson2.png') no-repeat center center fixed;
+  background-size: contain;
 }
 
 .panel2Class {
@@ -141,4 +142,5 @@
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
   background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/img/Lesson3.png') no-repeat center center fixed;
+   background-size: contain;
 }
