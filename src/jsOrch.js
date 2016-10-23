@@ -74,8 +74,7 @@ class LessonList extends React.Component {
 
 class TutorApp extends React.Component {
   componentDidMount() {
-    var elem = $('#panel_html > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div')
-    console.log('HTML js fiddle', elem)
+    var elem = $('#panel_html > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div').text('hi')
   }
   render() {
     return (

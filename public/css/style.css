@@ -59,9 +59,12 @@
     display: inline-block;
     width: 24.9vw;
     height: 24.9vh;
-    background-color: red;
 }
 
 #twoRows{
     width:50vw;
+}
+
+#panel1 {
+  background-color: #e984a2;
 }
