@@ -47,15 +47,15 @@ class LessonList extends React.Component {
       <div id="lessonList">
         
         {/* Give 50% or 50vw LEFT */}
-        <div className="twoRows">
-          <div className="panel">1</div>
-          <div className="panel">2</div>
-          <div className="panel">3</div>
-          <div className="panel">4</div>
-          <div className="panel">5</div>
-          <div className="panel">6</div>
-          <div className="panel">7</div>
-          <div className="panel">8</div>
+        <div id="twoRows">
+          <div id='panel' className="panel">1</div>
+          <div id='panel' className="panel">2</div>
+          <div id='panel' className="panel">3</div>
+          <div id='panel' className="panel">4</div>
+          <div id='panel' className="panel">5</div>
+          <div id='panel' className="panel">6</div>
+          <div id='panel' className="panel">7</div>
+          <div id='panel' className="panel">8</div>
         </div>
         
         {/* Give 50% or 50vw RIGHT */}
@@ -69,6 +69,10 @@ class LessonList extends React.Component {
 }
 
 class TutorApp extends React.Component {
+  componentDidMount() {
+    var elem = $('#panel_html > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div')
+    console.log('HTML js fiddle', elem)
+  }
   render() {
     return (
       <div></div>

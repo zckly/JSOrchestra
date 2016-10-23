@@ -93,45 +93,45 @@ var LessonList = function (_React$Component3) {
         { id: "lessonList" },
         React.createElement(
           "div",
-          { className: "twoRows" },
+          { id: "twoRows" },
           React.createElement(
             "div",
-            { className: "panel" },
+            { id: "panel", className: "panel" },
             "1"
           ),
           React.createElement(
             "div",
-            { className: "panel" },
+            { id: "panel", className: "panel" },
             "2"
           ),
           React.createElement(
             "div",
-            { className: "panel" },
+            { id: "panel", className: "panel" },
             "3"
           ),
           React.createElement(
             "div",
-            { className: "panel" },
+            { id: "panel", className: "panel" },
             "4"
           ),
           React.createElement(
             "div",
-            { className: "panel" },
+            { id: "panel", className: "panel" },
             "5"
           ),
           React.createElement(
             "div",
-            { className: "panel" },
+            { id: "panel", className: "panel" },
             "6"
           ),
           React.createElement(
             "div",
-            { className: "panel" },
+            { id: "panel", className: "panel" },
             "7"
           ),
           React.createElement(
             "div",
-            { className: "panel" },
+            { id: "panel", className: "panel" },
             "8"
           )
         ),
@@ -153,6 +153,12 @@ var TutorApp = function (_React$Component4) {
   }
 
   _createClass(TutorApp, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var elem = $('#panel_html > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div');
+      console.log('HTML js fiddle', elem);
+    }
+  }, {
     key: "render",
     value: function render() {
       return React.createElement("div", null);

@@ -54,13 +54,13 @@
 }
 
 /* Menu Grid  */
-.panel {
+#panel {
     display: inline-block;
     width: 24.9vw;
     height: 24.9vh;
     background-color: red;
 }
 
-.twoRows{
+#twoRows{
     width:50vw;
 }
