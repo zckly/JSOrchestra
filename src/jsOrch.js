@@ -8,6 +8,8 @@
 $("<div id='jsOrchestra' style='z-index: 999'></div>").appendTo("body")
 var robotoTag = $('<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">')
 $('head').append(robotoTag)
+
+console.log('router', Router)
 class App extends React.Component {
   render() {
     return (
