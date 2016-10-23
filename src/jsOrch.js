@@ -77,6 +77,7 @@ class TutorApp extends React.Component {
     var elem = $('#panel_html > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div > div > div.CodeMirror-code')
     elem.click()
     elem.keydown()
+    var todoHtml = ''
     elem.text('hi')
   }
   render() {

@@ -35,7 +35,7 @@
   background-size: cover;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 6vw;
   color: white;
   text-align: center;
 }
@@ -64,6 +64,7 @@
     display: inline-block;
     width: 24.9vw;
     height: 24.9vh;
+    line-height: 24.9vh;
 }
 
 #twoRows{
@@ -71,6 +72,7 @@
 }
 
 #panel1 {
+  
   background-color: #e984a2;
 }
 
