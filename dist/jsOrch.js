@@ -100,8 +100,13 @@ var LessonList = function (_React$Component3) {
       event.preventDefault();
       this.setState({ selectedItem: event.currentTarget.dataset.id });
 
-      var el = event.target;
-      console.log(el);
+      var elementId = event.target.id;
+      evaluate(elementId);
+    }
+  }, {
+    key: "evaluate",
+    value: function evaluate(selection) {
+      console.log(elementId);
     }
   }, {
     key: "render",

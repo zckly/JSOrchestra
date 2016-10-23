@@ -50,8 +50,11 @@ class LessonList extends React.Component {
     event.preventDefault();
     this.setState({ selectedItem: event.currentTarget.dataset.id });
 
-    var el = event.target
-    console.log(el)
+    var elementId = event.target.id;
+    evaluate(elementId);
+  }
+  evaluate(selection) {
+    console.log(elementId);
   }
   render() {
     return (
