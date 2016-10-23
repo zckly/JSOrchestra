@@ -16,8 +16,10 @@
     ],
   "web_accessible_resources": [
        "public/css/JSOSplash.png",
-       "public/css/JSOBG.png"
-
+       "public/css/JSOBG.png",
+       "public/img/Lesson1",
+       "public/img/Lesson2",
+       "public/img/Lesson3"
     ]
 }
 
