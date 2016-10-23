@@ -68,15 +68,6 @@ var Splash = function (_React$Component2) {
             { to: "/lessons" },
             "START"
           )
-        ),
-        React.createElement(
-          "button",
-          { id: "deleteThis" },
-          React.createElement(
-            Link,
-            { to: "/tutor" },
-            "tutor"
-          )
         )
       );
     }
@@ -163,42 +154,74 @@ var LessonList = function (_React$Component3) {
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel1", className: "panel" },
-              "1"
+              React.createElement(
+                Link,
+                { to: "/tutor" },
+                "1"
+              )
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel2", className: "panel" },
-              "2"
+              React.createElement(
+                Link,
+                { to: "/tutor" },
+                "2"
+              )
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel3", className: "panel" },
-              "3"
+              React.createElement(
+                Link,
+                { to: "/tutor" },
+                "3"
+              )
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel4", className: "panel" },
-              "4"
+              React.createElement(
+                Link,
+                { to: "/tutor" },
+                "4"
+              )
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel5", className: "panel" },
-              "5"
+              React.createElement(
+                Link,
+                { to: "/tutor" },
+                "5"
+              )
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel6", className: "panel" },
-              "6"
+              React.createElement(
+                Link,
+                { to: "/tutor" },
+                "6"
+              )
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel7", className: "panel" },
-              "7"
+              React.createElement(
+                Link,
+                { to: "/tutor" },
+                "7"
+              )
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel8", className: "panel" },
-              "8"
+              React.createElement(
+                Link,
+                { to: "/tutor" },
+                "8"
+              )
             )
           )
         )
@@ -240,6 +263,5 @@ ReactDOM.render(React.createElement(
   Router,
   null,
   React.createElement(Match, { exactly: true, pattern: "/", component: Splash }),
-  React.createElement(Match, { pattern: "/lessons", component: LessonList }),
-  React.createElement(Match, { pattern: "/tutor", component: TutorApp })
+  React.createElement(Match, { pattern: "/lessons", component: LessonList })
 ), document.getElementById('jsOrchestra'));
