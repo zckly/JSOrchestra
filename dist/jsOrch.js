@@ -159,7 +159,7 @@ var LessonList = function (_React$Component3) {
           ),
           React.createElement(
             "div",
-            { "class": "container" },
+            { id: "container" },
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel1", className: "panel" },

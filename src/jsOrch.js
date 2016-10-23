@@ -102,7 +102,7 @@ class LessonList extends React.Component {
             <div id="currentState" class='panel1Class'></div>
           </div>
           
-          <div class='container'>
+          <div id="container">
           <div onClick={this.onItemClick.bind(this)} id='panel1' className="panel">1</div>
           <div onClick={this.onItemClick.bind(this)} id='panel2' className="panel">2</div>
           <div onClick={this.onItemClick.bind(this)} id='panel3' className="panel">3</div>
