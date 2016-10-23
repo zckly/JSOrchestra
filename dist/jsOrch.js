@@ -16,9 +16,8 @@ $("<div id='jsOrchestra' style='z-index: 999'></div>").appendTo("body");
 var robotoTag = $('<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">');
 $('head').append(robotoTag);
 
-console.log(ReactRouter);
-var Router = ReactRouter.Router;
-var Route = ReactRouter.Route;
+var Router = ReactRouter.BrowserRouter;
+var Match = ReactRouter.Match;
 var Link = ReactRouter.Link;
 
 var App = function (_React$Component) {
@@ -101,10 +100,6 @@ var LessonList = function (_React$Component3) {
 ReactDOM.render(React.createElement(
   Router,
   null,
-  React.createElement(
-    Route,
-    { component: App },
-    React.createElement(Route, { path: "/", component: Splash }),
-    React.createElement(Route, { path: "/lessons", component: LessonList })
-  )
+  React.createElement(Match, { exactly: true, pattern: "/", component: Splash }),
+  React.createElement(Match, { pattern: "/lessons", component: LessonList })
 ), document.getElementById('jsOrchestra'));

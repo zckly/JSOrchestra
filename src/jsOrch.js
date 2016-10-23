@@ -7,9 +7,8 @@ $("<div id='jsOrchestra' style='z-index: 999'></div>").appendTo("body")
 var robotoTag = $('<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">')
 $('head').append(robotoTag)
 
-console.log(ReactRouter)
-var Router = ReactRouter.Router
-var Route = ReactRouter.Route
+var Router = ReactRouter.BrowserRouter
+var Match = ReactRouter.Match
 var Link = ReactRouter.Link
 class App extends React.Component {
   render() {
@@ -46,8 +45,6 @@ class LessonList extends React.Component {
 }
 
 ReactDOM.render( <Router>
-                    <Route component={App}>
-                      <Route path='/' component={Splash}/>
-                      <Route path='/lessons' component={LessonList}/>
-                    </Route>
+                    <Match exactly pattern="/" component={Splash} />
+                    <Match pattern='/lessons' component={LessonList} />
                 </Router>, document.getElementById('jsOrchestra'))
