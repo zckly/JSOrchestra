@@ -101,12 +101,25 @@ var LessonList = function (_React$Component3) {
       this.setState({ selectedItem: event.currentTarget.dataset.id });
 
       var elementId = event.target.id;
-      evaluate(elementId);
-    }
-  }, {
-    key: "evaluate",
-    value: function evaluate(selection) {
-      console.log(elementId);
+      switch (elementId) {
+        case '#panel1':
+          console.log('this');
+          break;
+        case '#panel2':
+          break;
+        case '#panel3':
+          break;
+        case '#panel4':
+          break;
+        case '#panel5':
+          break;
+        case '#panel6':
+          break;
+        case '#panel7':
+          break;
+        case '#panel8':
+          break;
+      }
     }
   }, {
     key: "render",
