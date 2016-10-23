@@ -91,18 +91,20 @@ class LessonList extends React.Component {
         <div id="twoRows">
           {/* Give 50% or 50vw RIGHT */}
           <div id="lessonDesc">
+          <Link to="/tutor">
             <div id="currentState" class='panel1Class'></div>
+          <Link to="/tutor">
           </div>
           
           <div id="container">
-          <div onClick={this.onItemClick.bind(this)} id='panel1' className="panel"><Link to="/tutor">1</Link></div>
-          <div onClick={this.onItemClick.bind(this)} id='panel2' className="panel"><Link to="/tutor">2</Link></div>
-          <div onClick={this.onItemClick.bind(this)} id='panel3' className="panel"><Link to="/tutor">3</Link></div>
-          <div onClick={this.onItemClick.bind(this)} id='panel4' className="panel"><Link to="/tutor">4</Link></div>
-          <div onClick={this.onItemClick.bind(this)} id='panel5' className="panel"><Link to="/tutor">5</Link></div>
-          <div onClick={this.onItemClick.bind(this)} id='panel6' className="panel"><Link to="/tutor">6</Link></div>
-          <div onClick={this.onItemClick.bind(this)} id='panel7' className="panel"><Link to="/tutor">7</Link></div>
-          <div onClick={this.onItemClick.bind(this)} id='panel8' className="panel"><Link to="/tutor">8</Link></div>
+          <div onClick={this.onItemClick.bind(this)} id='panel1' className="panel">1</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel2' className="panel">2</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel3' className="panel">3</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel4' className="panel">4</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel5' className="panel">5</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel6' className="panel">6</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel7' className="panel">7</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel8' className="panel">8</div>
           </div>
         </div>
 
