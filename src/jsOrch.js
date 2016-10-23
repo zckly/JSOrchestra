@@ -44,8 +44,16 @@ class Splash extends React.Component {
 class LessonList extends React.Component {
   render() {
     return (
-      <div>lesson list</div>
+      <div id="lessonList"></div>
 
+      )
+  }
+}
+
+class TutorApp extends React.Component {
+  render() {
+    return (
+      
       )
   }
 }
@@ -53,4 +61,5 @@ class LessonList extends React.Component {
 ReactDOM.render( <Router>
                     <Match exactly pattern="/" component={Splash} />
                     <Match pattern='/lessons' component={LessonList} />
+                    <Match pattern='/tutor' component={TutorApp} />
                 </Router>, document.getElementById('jsOrchestra'))
