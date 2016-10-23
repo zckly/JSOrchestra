@@ -112,28 +112,34 @@ var LessonList = function (_React$Component3) {
         case 'panel1':
           $('#currentState').removeClass();
           $('#currentState').addClass(elementId + 'Class');
-          console.log(elementId);
           break;
         case 'panel2':
-          console.log(elementId);
+          $('#currentState').removeClass();
+          $('#currentState').addClass(elementId + 'Class');
           break;
         case 'panel3':
-          console.log(elementId);
+          $('#currentState').removeClass();
+          $('#currentState').addClass(elementId + 'Class');
           break;
         case 'panel4':
-          console.log(elementId);
+          $('#currentState').removeClass();
+          $('#currentState').addClass(elementId + 'Class');
           break;
         case 'panel5':
-          console.log(elementId);
+          $('#currentState').removeClass();
+          $('#currentState').addClass(elementId + 'Class');
           break;
         case 'panel6':
-          console.log(elementId);
+          $('#currentState').removeClass();
+          $('#currentState').addClass(elementId + 'Class');
           break;
         case 'panel7':
-          console.log(elementId);
+          $('#currentState').removeClass();
+          $('#currentState').addClass(elementId + 'Class');
           break;
         case 'panel8':
-          console.log(elementId);
+          $('#currentState').removeClass();
+          $('#currentState').addClass(elementId + 'Class');
           break;
       }
     }
@@ -148,7 +154,7 @@ var LessonList = function (_React$Component3) {
           { id: "twoRows" },
           React.createElement(
             "div",
-            { id: "lessonDesc" },
+            { id: "lessonDesc", "class": "panel1Class" },
             React.createElement("div", { id: "currentState" })
           ),
           React.createElement(

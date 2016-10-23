@@ -112,10 +112,27 @@
 
 .panel1Class {
   float: left;
-  background-color: red;
   width: 100%;
   height: 100vh;
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
-  /*background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/img/Lesson1.png') no-repeat center center fixed;*/
+  background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/img/Lesson1.png') no-repeat center center fixed;
+}
+
+.panel2Class {
+  float: left;
+  width: 100%;
+  height: 100vh;
+  font-size: 3.0em;
+  font-family: 'Quicksand', sans-serif;
+  background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/img/Lesson2.png') no-repeat center center fixed;
+}
+
+.panel2Class {
+  float: left;
+  width: 100%;
+  height: 100vh;
+  font-size: 3.0em;
+  font-family: 'Quicksand', sans-serif;
+  background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/img/Lesson3.png') no-repeat center center fixed;
 }

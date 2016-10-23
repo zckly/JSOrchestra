@@ -60,28 +60,34 @@ class LessonList extends React.Component {
       case 'panel1': 
         $('#currentState').removeClass();
         $('#currentState').addClass(elementId + 'Class');
-       console.log(elementId);
         break;
       case 'panel2': 
-        console.log(elementId);
+        $('#currentState').removeClass();
+        $('#currentState').addClass(elementId + 'Class');
         break;
       case 'panel3': 
-        console.log(elementId);
+        $('#currentState').removeClass();
+        $('#currentState').addClass(elementId + 'Class');
         break;
       case 'panel4': 
-        console.log(elementId);
+        $('#currentState').removeClass();
+        $('#currentState').addClass(elementId + 'Class');
         break;
       case 'panel5': 
-        console.log(elementId);
+        $('#currentState').removeClass();
+        $('#currentState').addClass(elementId + 'Class');
         break;
       case 'panel6': 
-        console.log(elementId);
+        $('#currentState').removeClass();
+        $('#currentState').addClass(elementId + 'Class');
         break;
       case 'panel7': 
-        console.log(elementId);
+        $('#currentState').removeClass();
+        $('#currentState').addClass(elementId + 'Class');
         break;
       case 'panel8': 
-        console.log(elementId);
+        $('#currentState').removeClass();
+        $('#currentState').addClass(elementId + 'Class');
         break;
     }
   }
@@ -92,7 +98,7 @@ class LessonList extends React.Component {
         {/* Give 50% or 50vw LEFT */}
         <div id="twoRows">
           {/* Give 50% or 50vw RIGHT */}
-          <div id="lessonDesc">
+          <div id="lessonDesc" class='panel1Class'>
             <div id="currentState"></div>
           </div>
           
