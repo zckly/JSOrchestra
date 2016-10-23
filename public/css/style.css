@@ -38,17 +38,14 @@
 #splashBtn {
   position: absolute;
   top: 62vh;
-  left: 48%;
-  font-size: 3.0em;
-  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  left: 0px;
+  right: 0px;
 }
-#deleteThis {
-  position: absolute;
-  top: 62vh;
-  left: 55%;
-  font-size: 3.0em;
-  font-family: 'Quicksand', sans-serif;
-}
+
 #lessonDesc {
   width: 50vw;
   float: left;

@@ -27,17 +27,10 @@ class App extends React.Component {
 class Splash extends React.Component {
   render() {
     return (
-      
       <div id='splashScreen'>
-        
         <button id='splashBtn'>
           <Link to="/lessons">
             START
-          </Link>
-        </button>
-        <button id='deleteThis'>
-          <Link to="/tutor">
-            tutor
           </Link>
         </button>
       </div>
@@ -103,14 +96,14 @@ class LessonList extends React.Component {
           </div>
           
           <div id="container">
-          <div onClick={this.onItemClick.bind(this)} id='panel1' className="panel">1</div>
-          <div onClick={this.onItemClick.bind(this)} id='panel2' className="panel">2</div>
-          <div onClick={this.onItemClick.bind(this)} id='panel3' className="panel">3</div>
-          <div onClick={this.onItemClick.bind(this)} id='panel4' className="panel">4</div>
-          <div onClick={this.onItemClick.bind(this)} id='panel5' className="panel">5</div>
-          <div onClick={this.onItemClick.bind(this)} id='panel6' className="panel">6</div>
-          <div onClick={this.onItemClick.bind(this)} id='panel7' className="panel">7</div>
-          <div onClick={this.onItemClick.bind(this)} id='panel8' className="panel">8</div>
+          <div onClick={this.onItemClick.bind(this)} id='panel1' className="panel"><Link to="/tutor">1</Link></div>
+          <div onClick={this.onItemClick.bind(this)} id='panel2' className="panel"><Link to="/tutor">2</Link></div>
+          <div onClick={this.onItemClick.bind(this)} id='panel3' className="panel"><Link to="/tutor">3</Link></div>
+          <div onClick={this.onItemClick.bind(this)} id='panel4' className="panel"><Link to="/tutor">4</Link></div>
+          <div onClick={this.onItemClick.bind(this)} id='panel5' className="panel"><Link to="/tutor">5</Link></div>
+          <div onClick={this.onItemClick.bind(this)} id='panel6' className="panel"><Link to="/tutor">6</Link></div>
+          <div onClick={this.onItemClick.bind(this)} id='panel7' className="panel"><Link to="/tutor">7</Link></div>
+          <div onClick={this.onItemClick.bind(this)} id='panel8' className="panel"><Link to="/tutor">8</Link></div>
           </div>
         </div>
 
@@ -146,5 +139,4 @@ class TutorApp extends React.Component {
 ReactDOM.render( <Router>
                     <Match exactly pattern="/" component={Splash} />
                     <Match pattern='/lessons' component={LessonList} />
-                    <Match pattern='/tutor' component={TutorApp} />
                 </Router>, document.getElementById('jsOrchestra'))
