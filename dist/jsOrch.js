@@ -154,8 +154,8 @@ var LessonList = function (_React$Component3) {
           { id: "twoRows" },
           React.createElement(
             "div",
-            { id: "lessonDesc", "class": "panel1Class" },
-            React.createElement("div", { id: "currentState" })
+            { id: "lessonDesc" },
+            React.createElement("div", { id: "currentState", "class": "panel1Class" })
           ),
           React.createElement(
             "div",

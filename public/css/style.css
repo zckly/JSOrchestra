@@ -55,6 +55,12 @@
   float: left;
 }
 
+#currentState {
+  width: 49vw;
+  height: 100vh;
+  position: absolute;
+}
+
 .container {
   float: right;
 }

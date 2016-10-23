@@ -98,8 +98,8 @@ class LessonList extends React.Component {
         {/* Give 50% or 50vw LEFT */}
         <div id="twoRows">
           {/* Give 50% or 50vw RIGHT */}
-          <div id="lessonDesc" class='panel1Class'>
-            <div id="currentState"></div>
+          <div id="lessonDesc">
+            <div id="currentState" class='panel1Class'></div>
           </div>
           
           <div class='container'>
