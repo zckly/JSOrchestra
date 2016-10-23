@@ -21,7 +21,6 @@ class App extends React.Component {
       </div>
       )
   }
-  
 }
 
 class Splash extends React.Component {
