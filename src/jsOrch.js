@@ -28,10 +28,10 @@ class Splash extends React.Component {
   render() {
     return (
       <div id='splashScreen'>
-        <button id='splashBtn'>
-          <Link to="/lessons">
-          </Link>
-        </button>
+        <Link to="/lessons">
+          <button id='splashBtn'>
+          </button>
+        </Link>
       </div>
       )
   }
