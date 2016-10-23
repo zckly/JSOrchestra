@@ -46,6 +46,11 @@ class Splash extends React.Component {
 }
 
 class LessonList extends React.Component {
+  getInitialState() {
+    return {
+      selected:'p1'
+    }
+  }
   onItemClick(event) {
     event.preventDefault();
     this.setState({ selectedItem: event.currentTarget.dataset.id });
@@ -53,6 +58,8 @@ class LessonList extends React.Component {
     var elementId = event.target.id;
     switch(elementId) {
       case 'panel1': 
+        $('#lessonDesc').removeClass();
+        $('#lessonDesc').addClass(elementId + 'Class');
        console.log(elementId);
         break;
       case 'panel2': 

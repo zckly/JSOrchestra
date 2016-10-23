@@ -95,6 +95,13 @@ var LessonList = function (_React$Component3) {
   }
 
   _createClass(LessonList, [{
+    key: "getInitialState",
+    value: function getInitialState() {
+      return {
+        selected: 'p1'
+      };
+    }
+  }, {
     key: "onItemClick",
     value: function onItemClick(event) {
       event.preventDefault();
@@ -103,6 +110,8 @@ var LessonList = function (_React$Component3) {
       var elementId = event.target.id;
       switch (elementId) {
         case 'panel1':
+          $('#lessonDesc').removeClass();
+          $('#lessonDesc').addClass(elementId + 'Class');
           console.log(elementId);
           break;
         case 'panel2':

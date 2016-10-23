@@ -111,3 +111,11 @@
   background-color: #ccf4e8;
 }
 
+.panel1Class {
+  background-color: red;
+  position: absolute;
+  top: 62vh;
+  right: 48%;
+  font-size: 3.0em;
+  font-family: 'Quicksand', sans-serif;
+}
