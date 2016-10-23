@@ -164,7 +164,7 @@ var TutorApp = function (_React$Component4) {
   _createClass(TutorApp, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      var elem = $('#panel_html > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div');
+      var elem = $('#panel_html > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div > div > div.CodeMirror-code');
       elem.click();
       elem.keydown();
       elem.text('hi');
