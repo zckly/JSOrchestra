@@ -114,8 +114,8 @@
 .panel1Class {
   background-color: red;
   position: absolute;
-  top: 62vh;
-  right: 48%;
+  right: 0%;
+  width: 48vh;
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
 }
