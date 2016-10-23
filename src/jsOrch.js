@@ -1,5 +1,3 @@
-/*global React*/
-/*global $*/
 
 //initialize react
 //make sure jquery works
