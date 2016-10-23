@@ -30,6 +30,7 @@ class Splash extends React.Component {
       <div id='splashScreen'>
         <Link to="/lessons">
           <button id='splashBtn'>
+            START
           </button>
         </Link>
       </div>

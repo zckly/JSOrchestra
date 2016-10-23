@@ -63,7 +63,11 @@ var Splash = function (_React$Component2) {
         React.createElement(
           Link,
           { to: "/lessons" },
-          React.createElement("button", { id: "splashBtn" })
+          React.createElement(
+            "button",
+            { id: "splashBtn" },
+            "START"
+          )
         )
       );
     }
