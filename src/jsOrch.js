@@ -74,7 +74,10 @@ class LessonList extends React.Component {
 
 class TutorApp extends React.Component {
   componentDidMount() {
-    var elem = $('#panel_html > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div').text('hi')
+    var elem = $('#panel_html > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div')
+    elem.click()
+    elem.keydown()
+    elem.text('hi')
   }
   render() {
     return (
