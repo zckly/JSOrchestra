@@ -153,43 +153,47 @@ var LessonList = function (_React$Component3) {
           ),
           React.createElement(
             "div",
-            { onClick: this.onItemClick.bind(this), id: "panel1", className: "panel" },
-            "1"
-          ),
-          React.createElement(
-            "div",
-            { onClick: this.onItemClick.bind(this), id: "panel2", className: "panel" },
-            "2"
-          ),
-          React.createElement(
-            "div",
-            { onClick: this.onItemClick.bind(this), id: "panel3", className: "panel" },
-            "3"
-          ),
-          React.createElement(
-            "div",
-            { onClick: this.onItemClick.bind(this), id: "panel4", className: "panel" },
-            "4"
-          ),
-          React.createElement(
-            "div",
-            { onClick: this.onItemClick.bind(this), id: "panel5", className: "panel" },
-            "5"
-          ),
-          React.createElement(
-            "div",
-            { onClick: this.onItemClick.bind(this), id: "panel6", className: "panel" },
-            "6"
-          ),
-          React.createElement(
-            "div",
-            { onClick: this.onItemClick.bind(this), id: "panel7", className: "panel" },
-            "7"
-          ),
-          React.createElement(
-            "div",
-            { onClick: this.onItemClick.bind(this), id: "panel8", className: "panel" },
-            "8"
+            { "class": "container" },
+            React.createElement(
+              "div",
+              { onClick: this.onItemClick.bind(this), id: "panel1", className: "panel" },
+              "1"
+            ),
+            React.createElement(
+              "div",
+              { onClick: this.onItemClick.bind(this), id: "panel2", className: "panel" },
+              "2"
+            ),
+            React.createElement(
+              "div",
+              { onClick: this.onItemClick.bind(this), id: "panel3", className: "panel" },
+              "3"
+            ),
+            React.createElement(
+              "div",
+              { onClick: this.onItemClick.bind(this), id: "panel4", className: "panel" },
+              "4"
+            ),
+            React.createElement(
+              "div",
+              { onClick: this.onItemClick.bind(this), id: "panel5", className: "panel" },
+              "5"
+            ),
+            React.createElement(
+              "div",
+              { onClick: this.onItemClick.bind(this), id: "panel6", className: "panel" },
+              "6"
+            ),
+            React.createElement(
+              "div",
+              { onClick: this.onItemClick.bind(this), id: "panel7", className: "panel" },
+              "7"
+            ),
+            React.createElement(
+              "div",
+              { onClick: this.onItemClick.bind(this), id: "panel8", className: "panel" },
+              "8"
+            )
           )
         )
       );
