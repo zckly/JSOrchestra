@@ -91,6 +91,11 @@ class LessonList extends React.Component {
         
         {/* Give 50% or 50vw LEFT */}
         <div id="twoRows">
+          {/* Give 50% or 50vw RIGHT */}
+          <div id="lessonDesc">
+            <div id="currentState"></div>
+          </div>
+        
           <div onClick={this.onItemClick.bind(this)} id='panel1' className="panel">1</div>
           <div onClick={this.onItemClick.bind(this)} id='panel2' className="panel">2</div>
           <div onClick={this.onItemClick.bind(this)} id='panel3' className="panel">3</div>
@@ -99,11 +104,6 @@ class LessonList extends React.Component {
           <div onClick={this.onItemClick.bind(this)} id='panel6' className="panel">6</div>
           <div onClick={this.onItemClick.bind(this)} id='panel7' className="panel">7</div>
           <div onClick={this.onItemClick.bind(this)} id='panel8' className="panel">8</div>
-        </div>
-
-        {/* Give 50% or 50vw RIGHT */}
-        <div id="lessonDesc">
-          <div id="currentState"></div>
         </div>
 
       </div>
