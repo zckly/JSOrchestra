@@ -93,7 +93,7 @@ class LessonList extends React.Component {
           <div id="lessonDesc">
           <Link to="/tutor">
             <div id="currentState" class='panel1Class'></div>
-          <Link to="/tutor">
+          </Link>
           </div>
           
           <div id="container">

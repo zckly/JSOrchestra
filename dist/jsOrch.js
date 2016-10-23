@@ -63,11 +63,7 @@ var Splash = function (_React$Component2) {
         React.createElement(
           "button",
           { id: "splashBtn" },
-          React.createElement(
-            Link,
-            { to: "/lessons" },
-            "START"
-          )
+          React.createElement(Link, { to: "/lessons" })
         )
       );
     }
@@ -146,7 +142,11 @@ var LessonList = function (_React$Component3) {
           React.createElement(
             "div",
             { id: "lessonDesc" },
-            React.createElement("div", { id: "currentState", "class": "panel1Class" })
+            React.createElement(
+              Link,
+              { to: "/tutor" },
+              React.createElement("div", { id: "currentState", "class": "panel1Class" })
+            )
           ),
           React.createElement(
             "div",
@@ -154,74 +154,42 @@ var LessonList = function (_React$Component3) {
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel1", className: "panel" },
-              React.createElement(
-                Link,
-                { to: "/tutor" },
-                "1"
-              )
+              "1"
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel2", className: "panel" },
-              React.createElement(
-                Link,
-                { to: "/tutor" },
-                "2"
-              )
+              "2"
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel3", className: "panel" },
-              React.createElement(
-                Link,
-                { to: "/tutor" },
-                "3"
-              )
+              "3"
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel4", className: "panel" },
-              React.createElement(
-                Link,
-                { to: "/tutor" },
-                "4"
-              )
+              "4"
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel5", className: "panel" },
-              React.createElement(
-                Link,
-                { to: "/tutor" },
-                "5"
-              )
+              "5"
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel6", className: "panel" },
-              React.createElement(
-                Link,
-                { to: "/tutor" },
-                "6"
-              )
+              "6"
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel7", className: "panel" },
-              React.createElement(
-                Link,
-                { to: "/tutor" },
-                "7"
-              )
+              "7"
             ),
             React.createElement(
               "div",
               { onClick: this.onItemClick.bind(this), id: "panel8", className: "panel" },
-              React.createElement(
-                Link,
-                { to: "/tutor" },
-                "8"
-              )
+              "8"
             )
           )
         )
