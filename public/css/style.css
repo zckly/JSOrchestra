@@ -42,7 +42,13 @@
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
 }
-
+#deleteThis {
+  position: absolute;
+  top: 62vh;
+  left: 55%;
+  font-size: 3.0em;
+  font-family: 'Quicksand', sans-serif;
+}
 #lessonDesc {
   width: 50vw;
   Right: 0px;

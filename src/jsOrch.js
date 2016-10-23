@@ -35,7 +35,11 @@ class Splash extends React.Component {
             START
           </Link>
         </button>
-        
+        <button id='deleteThis'>
+          <Link to="/tutor">
+            tutor
+          </Link>
+        </button>
       </div>
       )
   }

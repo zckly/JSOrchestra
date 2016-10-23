@@ -68,6 +68,15 @@ var Splash = function (_React$Component2) {
             { to: "/lessons" },
             "START"
           )
+        ),
+        React.createElement(
+          "button",
+          { id: "deleteThis" },
+          React.createElement(
+            Link,
+            { to: "/tutor" },
+            "tutor"
+          )
         )
       );
     }
