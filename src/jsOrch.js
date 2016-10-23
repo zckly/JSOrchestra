@@ -76,17 +76,16 @@ class TutorApp extends React.Component {
   componentDidMount() {
     var elem = $('#panel_html > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div > div > div.CodeMirror-code')
     elem.trigger('keypress')
-    var todoHtml = '<div class="jumbotron">
-      <input type="text" class="form-control" id="todoInput" placeholder="ayy lmao" />
-      <p><a class="btn btn-primary btn-lg" id="addTodo" href="#" role="button">Add To-do</a></p>
-      <div id="todoList" class="list-group">
-        <button type="button" class="list-group-item">Brush teeth</button>
-        <button type="button" class="list-group-item">Read books</button>
-        <button type="button" class="list-group-item">Shop for dank memes</button>
-        <button type="button" class="list-group-item">Run for president</button>
-        <button type="button" class="list-group-item">Steal the declaration of independence</button>
-      </div>
-    </div>'
+    var todoHtml = '<div class="jumbotron">' + '\n' + '<input type="text" class="form-control" id="todoInput" placeholder="ayy lmao" />' + '\n' + 
+      '<p><a class="btn btn-primary btn-lg" id="addTodo" href="#" role="button">Add To-do</a></p>' + '\n' +
+      '<div id="todoList" class="list-group">' + '\n' +
+        '<button type="button" class="list-group-item">Brush teeth</button>'  + '\n' +
+        '<button type="button" class="list-group-item">Read books</button>'  + '\n' +
+        '<button type="button" class="list-group-item">Shop for dank memes</button>'  + '\n' +
+        '<button type="button" class="list-group-item">Run for president</button>'  + '\n' +
+        '<button type="button" class="list-group-item">Steal the declaration of independence</button>'  + '\n' +
+      '</div>'  + '\n' +
+    '</div>'  + '\n' + '</div>'
     elem.text(todoHtml)
   }
   render() {
