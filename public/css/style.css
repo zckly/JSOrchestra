@@ -42,3 +42,25 @@
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
 }
+
+#lessonList {
+  width: 50vw;
+  left: 0px;
+}
+
+#lessonDesc {
+  width: 50vw;
+  Right: 0px;
+}
+
+/* Menu Grid  */
+.panel {
+    display: inline-block;
+    width: 24.9vw;
+    height: 24.9vh;
+    background-color: red;
+}
+
+.twoRows{
+    width:50vw;
+}

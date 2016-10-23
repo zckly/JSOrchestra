@@ -91,7 +91,50 @@ var LessonList = function (_React$Component3) {
       return React.createElement(
         "div",
         { id: "lessonList" },
-        React.createElement("div", { id: "lessonMenu" }),
+        React.createElement(
+          "div",
+          { "class": "twoRows" },
+          React.createElement(
+            "div",
+            { "class": "panel" },
+            "1"
+          ),
+          React.createElement(
+            "div",
+            { "class": "panel" },
+            "2"
+          ),
+          React.createElement(
+            "div",
+            { "class": "panel" },
+            "3"
+          ),
+          React.createElement(
+            "div",
+            { "class": "panel" },
+            "4"
+          ),
+          React.createElement(
+            "div",
+            { "class": "panel" },
+            "5"
+          ),
+          React.createElement(
+            "div",
+            { "class": "panel" },
+            "6"
+          ),
+          React.createElement(
+            "div",
+            { "class": "panel" },
+            "7"
+          ),
+          React.createElement(
+            "div",
+            { "class": "panel" },
+            "8"
+          )
+        ),
         React.createElement("div", { id: "lessonDesc" })
       );
     }

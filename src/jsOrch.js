@@ -47,11 +47,15 @@ class LessonList extends React.Component {
       <div id="lessonList">
         
         {/* Give 50% or 50vw LEFT */}
-        <div id="lessonMenu">
-        
-          
-          
-        
+        <div class="twoRows">
+          <div class="panel">1</div>
+          <div class="panel">2</div>
+          <div class="panel">3</div>
+          <div class="panel">4</div>
+          <div class="panel">5</div>
+          <div class="panel">6</div>
+          <div class="panel">7</div>
+          <div class="panel">8</div>
         </div>
         
         {/* Give 50% or 50vw RIGHT */}
