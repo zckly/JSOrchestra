@@ -101,24 +101,30 @@ var LessonList = function (_React$Component3) {
       this.setState({ selectedItem: event.currentTarget.dataset.id });
 
       var elementId = event.target.id;
-      console.log(elementId);
       switch (elementId) {
-        case '#panel1':
-          console.log('this');
+        case 'panel1':
+          console.log(elementId);
           break;
-        case '#panel2':
+        case 'panel2':
+          console.log(elementId);
           break;
-        case '#panel3':
+        case 'panel3':
+          console.log(elementId);
           break;
-        case '#panel4':
+        case 'panel4':
+          console.log(elementId);
           break;
-        case '#panel5':
+        case 'panel5':
+          console.log(elementId);
           break;
-        case '#panel6':
+        case 'panel6':
+          console.log(elementId);
           break;
-        case '#panel7':
+        case 'panel7':
+          console.log(elementId);
           break;
-        case '#panel8':
+        case 'panel8':
+          console.log(elementId);
           break;
       }
     }
