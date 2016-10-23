@@ -17,9 +17,9 @@
   "web_accessible_resources": [
        "public/css/JSOSplash.png",
        "public/css/JSOBG.png",
-       "public/img/Lesson1",
-       "public/img/Lesson2",
-       "public/img/Lesson3"
+       "public/img/Lesson1.png",
+       "public/img/Lesson2.png",
+       "public/img/Lesson3.png"
     ]
 }
 
