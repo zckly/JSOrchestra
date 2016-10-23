@@ -33,6 +33,11 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  color: white;
+  text-align: center;
 }
 
 #splashBtn {
