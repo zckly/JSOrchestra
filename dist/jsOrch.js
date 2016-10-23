@@ -110,8 +110,8 @@ var LessonList = function (_React$Component3) {
       var elementId = event.target.id;
       switch (elementId) {
         case 'panel1':
-          $('#lessonDesc').removeClass();
-          $('#lessonDesc').addClass(elementId + 'Class');
+          $('#lessonDesc > div.currentState').removeClass();
+          $('#lessonDesc > div.currentState').addClass(elementId + 'Class');
           console.log(elementId);
           break;
         case 'panel2':
@@ -187,7 +187,11 @@ var LessonList = function (_React$Component3) {
             "8"
           )
         ),
-        React.createElement("div", { id: "lessonDesc" })
+        React.createElement(
+          "div",
+          { id: "lessonDesc" },
+          React.createElement("div", { id: "currentState" })
+        )
       );
     }
   }]);

@@ -58,8 +58,8 @@ class LessonList extends React.Component {
     var elementId = event.target.id;
     switch(elementId) {
       case 'panel1': 
-        $('#lessonDesc').removeClass();
-        $('#lessonDesc').addClass(elementId + 'Class');
+        $('#lessonDesc > div.currentState').removeClass();
+        $('#lessonDesc > div.currentState').addClass(elementId + 'Class');
        console.log(elementId);
         break;
       case 'panel2': 
@@ -103,6 +103,7 @@ class LessonList extends React.Component {
         
         {/* Give 50% or 50vw RIGHT */}
         <div id="lessonDesc">
+          <div id="currentState"></div>
         </div>
       
       </div>
