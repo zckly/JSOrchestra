@@ -93,45 +93,45 @@ var LessonList = function (_React$Component3) {
         { id: "lessonList" },
         React.createElement(
           "div",
-          { "class": "twoRows" },
+          { className: "twoRows" },
           React.createElement(
             "div",
-            { "class": "panel" },
+            { className: "panel" },
             "1"
           ),
           React.createElement(
             "div",
-            { "class": "panel" },
+            { className: "panel" },
             "2"
           ),
           React.createElement(
             "div",
-            { "class": "panel" },
+            { className: "panel" },
             "3"
           ),
           React.createElement(
             "div",
-            { "class": "panel" },
+            { className: "panel" },
             "4"
           ),
           React.createElement(
             "div",
-            { "class": "panel" },
+            { className: "panel" },
             "5"
           ),
           React.createElement(
             "div",
-            { "class": "panel" },
+            { className: "panel" },
             "6"
           ),
           React.createElement(
             "div",
-            { "class": "panel" },
+            { className: "panel" },
             "7"
           ),
           React.createElement(
             "div",
-            { "class": "panel" },
+            { className: "panel" },
             "8"
           )
         ),
