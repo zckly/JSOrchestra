@@ -51,7 +51,6 @@
 }
 #lessonDesc {
   width: 50vw;
-  height: 100vh;
   float: right;
 }
 
@@ -110,6 +109,7 @@
   background-color: red;
   right: 0%;
   width: 48vh;
+  height: 100vh;
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
 }
