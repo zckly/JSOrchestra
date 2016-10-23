@@ -5,7 +5,7 @@
   right: 0vw;
   width:100vw;
   height:100vh;
-  left:0px;
+  left:0vw;
   z-index: 999;
   background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/css/JSOSplash.png') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -13,6 +13,7 @@
   -o-background-size: cover;
   background-size: cover;
   cursor: pointer;
+  text-align: center;
 }
 
 #lessonList {
@@ -35,15 +36,24 @@
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 #splashBtn {
   position: absolute;
-  top: 62vh;
+  top: 60%;
+  letter-spacing: 3px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 2vw;
-  left: 0px;
-  right: 0px;
+  font-size: 1.9vw;
+  margin: 0 auto;
+  left: 0%;
+  right: 0%;
+  width: 8vw;
+  color: white;
 }
 
 #lessonDesc {
