@@ -88,20 +88,36 @@ var LessonList = function (_React$Component3) {
   _createClass(LessonList, [{
     key: "render",
     value: function render() {
-      return React.createElement(
-        "div",
-        null,
-        "lesson list"
-      );
+      return React.createElement("div", { id: "lessonList" });
     }
   }]);
 
   return LessonList;
 }(React.Component);
 
+var TutorApp = function (_React$Component4) {
+  _inherits(TutorApp, _React$Component4);
+
+  function TutorApp() {
+    _classCallCheck(this, TutorApp);
+
+    return _possibleConstructorReturn(this, (TutorApp.__proto__ || Object.getPrototypeOf(TutorApp)).apply(this, arguments));
+  }
+
+  _createClass(TutorApp, [{
+    key: "render",
+    value: function render() {
+      return React.createElement("div", null);
+    }
+  }]);
+
+  return TutorApp;
+}(React.Component);
+
 ReactDOM.render(React.createElement(
   Router,
   null,
   React.createElement(Match, { exactly: true, pattern: "/", component: Splash }),
-  React.createElement(Match, { pattern: "/lessons", component: LessonList })
+  React.createElement(Match, { pattern: "/lessons", component: LessonList }),
+  React.createElement(Match, { pattern: "/tutor", component: TutorApp })
 ), document.getElementById('jsOrchestra'));
