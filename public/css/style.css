@@ -16,6 +16,7 @@
 }
 
 #lessonList {
+  display: inline-block;
   position: absolute;
   top: 0vh;
   right: 0vw;
