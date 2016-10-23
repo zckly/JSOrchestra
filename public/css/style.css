@@ -111,13 +111,11 @@
 }
 
 .panel1Class {
-  margin-left:auto; 
-  margin-right:0;
   background-color: red;
   right: 0%;
   width: 48vh;
   height: 100vh;
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
-  background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/img/Lesson1.png') no-repeat center center fixed;
+  /*background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/img/Lesson1.png') no-repeat center center fixed;*/
 }
