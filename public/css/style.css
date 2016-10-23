@@ -70,6 +70,18 @@ a {
     transition: all 0.3s ease;
 }
 
+#about_toggler {
+  background-color: #f4bece;
+}
+
+#sidebar > div:nth-child(2) > div > div {
+  background-color: #f4bece;
+}
+
+body {
+  background-color: #f4bece;
+}
+
 #splashBtn:hover{
   opacity: .8;
   width: 100vw;
@@ -157,7 +169,12 @@ a {
 }
 
 #panel_css > div > div.CodeMirror-scroll {
-  background-color: black;
+  background-color: #262626;
+}
+
+#home {
+  background: url('chrome-extension://bpojnafojmmhajekaifkhhhmeifcnfbg/public/img/JSOIcon.png') 0 50% no-repeat;
+  background-size: 42px;
 }
 
 .panel1Class {
