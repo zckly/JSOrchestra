@@ -173,7 +173,7 @@ body {
 }
 
 #home {
-  background: url('chrome-extension://fpfokpepdgmhdlfgkgihlgjkmckgmbok/public/img/JSOIcon.png') 0 50% no-repeat;
+  background: url('http://tinyimg.io/i/y5TLfbt.png') 0 50% no-repeat;
   background-size: 42px;
 }
 
@@ -182,7 +182,7 @@ body {
   height: 100vh;
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
-  background: url('chrome-extension://fpfokpepdgmhdlfgkgihlgjkmckgmbok/public/img/Lesson1.png') no-repeat center;
+  background: url('http://tinyimg.io/i/BWAWxp2.png') no-repeat center;
   background-size: contain;
 
     -webkit-transition: all 0.5s ease;
@@ -196,7 +196,7 @@ body {
   height: 100vh;
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
-  background: url('chrome-extension://fpfokpepdgmhdlfgkgihlgjkmckgmbok/public/img/Lesson2.png') no-repeat center;
+  background: url('http://tinyimg.io/i/44WmoSp.png') no-repeat center;
   background-size: contain;
 
       -webkit-transition: all 0.5s ease;
@@ -211,7 +211,7 @@ body {
   height: 100vh;
   font-size: 3.0em;
   font-family: 'Quicksand', sans-serif;
-  background: url('chrome-extension://fpfokpepdgmhdlfgkgihlgjkmckgmbok/public/img/Lesson3.png') no-repeat center;
+  background: url('http://tinyimg.io/i/fnMqymo.png') no-repeat center;
   background-size: contain;
 
       -webkit-transition: all 0.5s ease;
