@@ -37,6 +37,37 @@ class Splash extends React.Component {
   }
 }
 
+/* Reoadmap prior to a sub menu.
+    ie) Project 1: Facebook For Iguanas:
+            Menu:
+            1. Chat Box
+            2. Timeline
+            3. Pictures
+            4. Like and comment functionality
+*/
+class ProjectList extends React.Component {
+  
+  componentDidMount() {
+    
+  }
+  render() {
+    return (
+      <div>
+        <div id="mainList">
+        
+          {/* Left Partition of Menu Boxes */}
+          <div id="menuOptions"></div>
+          
+          {/* Right Partition for Description  */}
+          <div id="menuDescriptions"></div>
+        
+        </div>
+      </div>
+      )
+  }
+  
+}
+
 class LessonList extends React.Component {
   getInitialState() {
     return {
@@ -109,7 +140,7 @@ class LessonList extends React.Component {
         </div>
 
       </div>
-
+// https://jsfiddle.net/codefuture/oo2sv7sL/
       )
   }
 }

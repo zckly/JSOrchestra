@@ -219,3 +219,17 @@ body {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
+#mainList {
+  
+  display: inline-block;
+  
+}
+
+#menuOptions {
+  float: left;
+}
+
+#menuDescriptions {
+  float: right;
+}
