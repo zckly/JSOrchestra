@@ -7,7 +7,7 @@
   height:100vh;
   left:0vw;
   z-index: 999;
-  background: url('chrome-extension://fpfokpepdgmhdlfgkgihlgjkmckgmbok/public/css/JSOSplash.png') no-repeat center center fixed;
+  background: url('http://tinyimg.io/i/xJQL7x7.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,7 +23,7 @@
   height:100vh;
   left:0px;
   z-index: 999;
-  background: url('chrome-extension://fpfokpepdgmhdlfgkgihlgjkmckgmbok/public/css/JSOBG.png') no-repeat center center fixed;
+  background: url('http://tinyimg.io/i/YT6xr3Z.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
