@@ -1,3 +1,5 @@
+## JSOrchestra
+
 ## Inspiration
 
 There are many great educational resources and solutions for software development, however, there currently is no well-known method to learning how to develop an application. We seek to provide an easy to use and straight forward medium that guides a user through a series of tutorials focusing on the application development process!
